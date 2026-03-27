@@ -1,0 +1,122 @@
+{
+  "players": [
+    {
+      "name": "FishMarket[FF]",
+      "frags": 11,
+      "deaths": 5,
+      "sessions": 1,
+      "sessionsByMonth": {
+        "2026-03": 1
+      },
+      "fragsByMonth": {
+        "2026-03": 11
+      },
+      "deathsByMonth": {
+        "2026-03": 5
+      }
+    },
+    {
+      "name": "Aberrant",
+      "frags": 5,
+      "deaths": 11,
+      "sessions": 1,
+      "sessionsByMonth": {
+        "2026-03": 1
+      },
+      "fragsByMonth": {
+        "2026-03": 5
+      },
+      "deathsByMonth": {
+        "2026-03": 11
+      }
+    }
+  ],
+  "totalFrags": 16,
+  "lastUpdated": "2026-03-25, 11:58:53 a.m.",
+  "allKills": [
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "Aberrant",
+      "victim": "FishMarket[FF]"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "Aberrant",
+      "victim": "FishMarket[FF]"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "Aberrant",
+      "victim": "FishMarket[FF]"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "Aberrant",
+      "victim": "FishMarket[FF]"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "FishMarket[FF]",
+      "victim": "Aberrant"
+    },
+    {
+      "killer": "Aberrant",
+      "victim": "FishMarket[FF]"
+    }
+  ],
+  "sessions": [
+    {
+      "date": "2026-03-24",
+      "month": "2026-03",
+      "players": [
+        {
+          "name": "FishMarket[FF]",
+          "frags": 11,
+          "deaths": 5,
+          "attended": 1
+        },
+        {
+          "name": "Aberrant",
+          "frags": 5,
+          "deaths": 11,
+          "attended": 1
+        }
+      ]
+    }
+  ]
+}
