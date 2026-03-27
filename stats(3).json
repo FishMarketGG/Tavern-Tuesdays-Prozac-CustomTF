@@ -1,0 +1,109 @@
+{
+  "players": {
+    "FishMarket[FF]": {
+      "name": "FishMarket[FF]",
+      "frags": 11,
+      "deaths": 5,
+      "joins": 0,
+      "client": "Unknown",
+      "lastSeen": "2026-03-24",
+      "killMap": {
+        "Aberrant": 11
+      },
+      "topKilled": "Aberrant",
+      "topKilledBy": "Aberrant"
+    },
+    "Aberrant": {
+      "name": "Aberrant",
+      "frags": 5,
+      "deaths": 11,
+      "joins": 0,
+      "client": "Unknown",
+      "lastSeen": "2026-03-24",
+      "killMap": {
+        "FishMarket[FF]": 5
+      },
+      "topKilled": "FishMarket[FF]",
+      "topKilledBy": "FishMarket[FF]"
+    }
+  },
+  "weekly": {
+    "2026-W13": {
+      "FishMarket[FF]": {
+        "name": "FishMarket[FF]",
+        "frags": 11,
+        "deaths": 5,
+        "joins": 0
+      },
+      "Aberrant": {
+        "name": "Aberrant",
+        "frags": 5,
+        "deaths": 11,
+        "joins": 0
+      }
+    }
+  },
+  "monthly": {
+    "Mar 2026": {
+      "FishMarket[FF]": {
+        "name": "FishMarket[FF]",
+        "frags": 11,
+        "deaths": 5,
+        "joins": 0
+      },
+      "Aberrant": {
+        "name": "Aberrant",
+        "frags": 5,
+        "deaths": 11,
+        "joins": 0
+      }
+    }
+  },
+  "mvpHistory": [
+    {
+      "rank": 1,
+      "player": "FishMarket[FF]",
+      "category": "frags",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-24",
+      "value": 11
+    },
+    {
+      "rank": 2,
+      "player": "Aberrant",
+      "category": "frags",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-24",
+      "value": 5
+    },
+    {
+      "rank": 1,
+      "player": "Aberrant",
+      "category": "deaths",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-24",
+      "value": 11
+    },
+    {
+      "rank": 2,
+      "player": "FishMarket[FF]",
+      "category": "deaths",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-24",
+      "value": 5
+    }
+  ],
+  "lastUpdated": "2026-03-27T04:38:13.094Z",
+  "_sessionLog": [
+    {
+      "date": "2026-03-24",
+      "label": null,
+      "players": 2,
+      "frags": 16
+    }
+  ]
+}
