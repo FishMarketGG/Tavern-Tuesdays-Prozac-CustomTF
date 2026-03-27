@@ -1,0 +1,178 @@
+{
+  "players": {
+    "FishMarket[FF]": {
+      "name": "FishMarket[FF]",
+      "frags": 11,
+      "deaths": 5,
+      "joins": 24,
+      "client": "FuhQuake 0.31",
+      "lastSeen": "2026-03-27",
+      "killMap": {
+        "Aberrant": 11
+      },
+      "topKilled": "Aberrant",
+      "topKilledBy": "Aberrant"
+    },
+    "(1)FishMarket": {
+      "name": "(1)FishMarket",
+      "frags": 0,
+      "deaths": 0,
+      "joins": 1,
+      "client": "FuhQuake 0.31",
+      "lastSeen": "2026-03-27",
+      "killMap": {}
+    },
+    "player": {
+      "name": "player",
+      "frags": 0,
+      "deaths": 0,
+      "joins": 2,
+      "client": "ezQuake 8019",
+      "lastSeen": "2026-03-27",
+      "killMap": {}
+    },
+    "Aberrant": {
+      "name": "Aberrant",
+      "frags": 5,
+      "deaths": 11,
+      "joins": 0,
+      "client": "Unknown",
+      "lastSeen": "2026-03-27",
+      "killMap": {
+        "FishMarket[FF]": 5
+      },
+      "topKilled": "FishMarket[FF]",
+      "topKilledBy": "FishMarket[FF]"
+    }
+  },
+  "weekly": {
+    "2026-W13": {
+      "FishMarket[FF]": {
+        "name": "FishMarket[FF]",
+        "frags": 11,
+        "deaths": 5,
+        "joins": 24
+      },
+      "(1)FishMarket": {
+        "name": "(1)FishMarket",
+        "frags": 0,
+        "deaths": 0,
+        "joins": 1
+      },
+      "player": {
+        "name": "player",
+        "frags": 0,
+        "deaths": 0,
+        "joins": 2
+      },
+      "Aberrant": {
+        "name": "Aberrant",
+        "frags": 5,
+        "deaths": 11,
+        "joins": 0
+      }
+    }
+  },
+  "monthly": {
+    "Mar 2026": {
+      "FishMarket[FF]": {
+        "name": "FishMarket[FF]",
+        "frags": 11,
+        "deaths": 5,
+        "joins": 24
+      },
+      "(1)FishMarket": {
+        "name": "(1)FishMarket",
+        "frags": 0,
+        "deaths": 0,
+        "joins": 1
+      },
+      "player": {
+        "name": "player",
+        "frags": 0,
+        "deaths": 0,
+        "joins": 2
+      },
+      "Aberrant": {
+        "name": "Aberrant",
+        "frags": 5,
+        "deaths": 11,
+        "joins": 0
+      }
+    }
+  },
+  "mvpHistory": [
+    {
+      "rank": 1,
+      "player": "FishMarket[FF]",
+      "category": "frags",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-27",
+      "value": 11
+    },
+    {
+      "rank": 2,
+      "player": "Aberrant",
+      "category": "frags",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-27",
+      "value": 5
+    },
+    {
+      "rank": 1,
+      "player": "Aberrant",
+      "category": "deaths",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-27",
+      "value": 11
+    },
+    {
+      "rank": 2,
+      "player": "FishMarket[FF]",
+      "category": "deaths",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-27",
+      "value": 5
+    },
+    {
+      "rank": 1,
+      "player": "FishMarket[FF]",
+      "category": "joins",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-27",
+      "value": 24
+    },
+    {
+      "rank": 2,
+      "player": "player",
+      "category": "joins",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-27",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "player": "(1)FishMarket",
+      "category": "joins",
+      "period": "monthly",
+      "periodKey": "Mar 2026",
+      "date": "2026-03-27",
+      "value": 1
+    }
+  ],
+  "lastUpdated": "2026-03-27T04:43:09.961Z",
+  "_sessionLog": [
+    {
+      "date": "2026-03-27",
+      "label": null,
+      "players": 4,
+      "frags": 16
+    }
+  ]
+}
