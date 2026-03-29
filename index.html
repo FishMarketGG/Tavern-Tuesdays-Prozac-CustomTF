@@ -26,12 +26,26 @@ header::after{content:"";position:absolute;inset:0;background:radial-gradient(el
 .logo-block{display:flex;align-items:center;gap:1.2rem;}
 .logo-block .ico{height:68px;filter:drop-shadow(0 0 12px rgba(232,180,74,.4));}
 .logo-text{display:flex;flex-direction:column;gap:.3rem;}
-.logo-text .wm{height:20px;filter:brightness(1.1) drop-shadow(0 2px 4px rgba(0,0,0,.8));}
-.logo-text .sub{font-size:.30rem;color:var(--amber-dim);letter-spacing:2px;text-transform:uppercase;}
+.logo .wm{height:20px;filter:brightness(1.1) drop-shadow(0 2px 4px rgba(0,0,0,.8));}
+.logo-text .sub{font-size:.68rem;color:var(--amber-dim);letter-spacing:2px;text-transform:uppercase;}
 .header-right{display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;}
 .meta{font-size:.76rem;color:var(--text-dim);letter-spacing:1px;}
 .meta strong{color:var(--amber);}
 .hbtns{display:flex;gap:.6rem;flex-wrap:wrap;justify-content:flex-end;}
+
+/* HEADER 2*/
+header{border-bottom:2px solid var(--border);background:linear-gradient(180deg,#1e1504 0%,var(--bg) 100%);position:relative;}
+header::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--amber),transparent);}
+.hi{max-width:1100px;margin:0 auto;padding:1.1rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;}
+.logo{display:flex;align-items:center;gap:1rem;}
+.logo img.ico{height:50px;filter:drop-shadow(0 0 8px rgba(232,180,74,.35));}
+.logo img.wm{height:32px;filter:brightness(1.1);}
+.ptitle{font-family:"VT323",monospace;font-size:clamp(1.6rem,3.5vw,2.4rem);color:var(--amber-glow);letter-spacing:2px;text-shadow:0 0 14px rgba(245,200,74,.3);}
+.back{color:var(--amber-dim);text-decoration:none;font-size:.75rem;letter-spacing:2px;border:1px solid var(--border);padding:.38rem .85rem;transition:all .2s;}
+.back:hover{color:var(--amber);border-color:var(--amber-dim);}
+
+main{max-width:1100px;margin:0 auto;padding:2rem;}
+.err-bar{display:none;background:rgba(192,57,43,.15);border:1px solid #7a2218;color:#e05040;font-size:.74rem;padding:.6rem 1rem;margin-bottom:1.5rem;letter-spacing:1px;}
 
 /* BUTTONS */
 .btn{display:inline-flex;align-items:center;gap:.4rem;background:transparent;border:1px solid var(--amber-dim);color:var(--amber);font-family:"Share Tech Mono",monospace;font-size:.74rem;letter-spacing:1px;text-transform:uppercase;padding:.4rem .95rem;cursor:pointer;text-decoration:none;transition:all .18s;}
