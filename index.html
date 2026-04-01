@@ -480,7 +480,7 @@ async function checkLive(){
   const mod=document.getElementById('lmodalInner');
   dot.className='bdot chk';txt.innerHTML='Checking server status...';
   try{
-    const r=await fetch('https://api.allorigins.win/get?url='+encodeURIComponent('https://www.gametracker.com/server_info/147.185.221.194:56903/'),{signal:AbortSignal.timeout(8000)});
+    const r=await fetch('https://api.allorigins.win/get?url='+encodeURIComponent('www.quakeservers.net/quakeworld/servers/'),{signal:AbortSignal.timeout(8000)});
     const d=await r.json(),h=d.contents||'';
     const on=h.includes('147.185.221.194')&&h.includes('56903');
     if(on){
