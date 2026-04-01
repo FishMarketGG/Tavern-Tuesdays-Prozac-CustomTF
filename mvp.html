@@ -412,14 +412,9 @@ function drawWinnersTable(list){
 function renderMonthlyHistory(){
   const hist = (G.mvpHistory||[]).filter(e => e.period==='monthly');
   const awardedMonths = [...new Set(hist.map(e=>e.periodKey))];
-  const dataMonths = Object.keys(G.monthly||{});
 
-  // Combine: awarded + any month with data (show as pending)
-  const allMonths = [...new Set([...awardedMonths, ...dataMonths])]
-    .filter(m => {
-      const d = G.monthly&&G.monthly[m];
-      return d && Object.keys(d).filter(n=>!isIgnored(n)).length > 0;
-    })
+  // Only show months that have been officially awarded
+  const allMonths = awardedMonths
     .sort((a,b) => parseMonth(b)-parseMonth(a));
 
   const tabsEl   = document.getElementById('monthTabs');
@@ -438,8 +433,8 @@ function renderMonthlyHistory(){
   }).join('');
 
   panelsEl.innerHTML = allMonths.map((m,i) => {
-    const awarded = awardedMonths.includes(m);
-    const pendingBadge = awarded ? '' : `<div class="pending-badge">⏳ Pending — not yet awarded</div>`;
+    const awarded = true;
+    const pendingBadge = '';
 
     const cats = ['frags','deaths','joins'];
     const catCards = cats.map(cat => {
