@@ -1,0 +1,46 @@
+{
+  "players": {
+    "FishMarket[FF]": {
+      "name": "FishMarket[FF]",
+      "frags": 0,
+      "deaths": 0,
+      "joins": 1,
+      "client": "FuhQuake 0.31",
+      "lastSeen": "2026-03-31",
+      "killMap": {},
+      "clientHistory": {
+        "FuhQuake 0.31": 1
+      }
+    }
+  },
+  "weekly": {
+    "2026-W14": {
+      "FishMarket[FF]": {
+        "name": "FishMarket[FF]",
+        "frags": 0,
+        "deaths": 0,
+        "joins": 1
+      }
+    }
+  },
+  "monthly": {
+    "Mar 2026": {
+      "FishMarket[FF]": {
+        "name": "FishMarket[FF]",
+        "frags": 0,
+        "deaths": 0,
+        "joins": 1
+      }
+    }
+  },
+  "mvpHistory": [],
+  "lastUpdated": "2026-04-01T16:48:25.144Z",
+  "_sessionLog": [
+    {
+      "date": "2026-03-31",
+      "label": null,
+      "players": 1,
+      "frags": 0
+    }
+  ]
+}
