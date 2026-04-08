@@ -252,7 +252,7 @@ footer a:hover{color:var(--amber);}
       <div>Schedule: <span>Every Tuesday · 7:00 PM CST</span></div>
       <div>Host: <span>FishMarket[FF]</span></div>
     </div>
-    <a class="extlnk" href="https://www.gametracker.com/server_info/147.185.221.194:56903/" target="_blank" rel="noopener">↗ View on GameTracker</a>
+    <a class="extlnk" href="https://www.quakeservers.net/quakeworld/server_status/13780/" target="_blank" rel="noopener">↗ View on QuakeServers.net</a>
   </div>
 </div>
 
@@ -480,7 +480,7 @@ async function checkLive(){
   const mod=document.getElementById('lmodalInner');
   dot.className='bdot chk';txt.innerHTML='Checking server status...';
   try{
-    const r=await fetch('https://api.allorigins.win/get?url='+encodeURIComponent('https://www.gametracker.com/server_info/147.185.221.194:56903/'),{signal:AbortSignal.timeout(8000)});
+    const r=await fetch('https://api.allorigins.win/get?url='+encodeURIComponent('https://www.quakeservers.net/quakeworld/server_status/13780/'),{signal:AbortSignal.timeout(8000)});
     const d=await r.json(),h=d.contents||'';
     const on=h.includes('147.185.221.194')&&h.includes('56903');
     if(on){
@@ -499,7 +499,7 @@ function openLive(){om('lModal');checkLive();}
 setTimeout(async()=>{
   const btn=document.getElementById('liveBtn'),lbl=document.getElementById('liveLbl');
   try{
-    const r=await fetch('https://api.allorigins.win/get?url='+encodeURIComponent('https://www.gametracker.com/server_info/147.185.221.194:56903/'),{signal:AbortSignal.timeout(8000)});
+    const r=await fetch('https://api.allorigins.win/get?url='+encodeURIComponent('https://www.quakeservers.net/quakeworld/server_status/13780/'),{signal:AbortSignal.timeout(8000)});
     const d=await r.json(),h=d.contents||'';
     const on=h.includes('147.185.221.194')&&h.includes('56903');
     btn.className='btn live '+(on?'online':'offline');
