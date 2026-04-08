@@ -23,14 +23,14 @@
       "frags": 175,
       "deaths": 309,
       "joins": 1,
-      "client": "Unknown",
+      "client": "FTE v1.07",
       "lastSeen": "2026-04-07",
       "killMap": {
         "FishMarket[FF]": 121,
         "Kilam": 54
       },
       "clientHistory": {
-        "FTE 1.07": 1
+        "FTE v1.07": 1
       },
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "FishMarket[FF]"
@@ -40,7 +40,7 @@
       "frags": 266,
       "deaths": 236,
       "joins": 1,
-      "client": "Unknown",
+      "client": "FTE v1.07",
       "lastSeen": "2026-04-07",
       "killMap": {
         "FishMarket[FF]": 201,
@@ -49,7 +49,7 @@
         "XidCuzYes": 1
       },
       "clientHistory": {
-        "FTE 1.07": 1
+        "FTE v1.07": 1
       },
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "FishMarket[FF]"
@@ -160,7 +160,7 @@
     }
   },
   "mvpHistory": [],
-  "lastUpdated": "2026-04-08T03:49:58.994Z",
+  "lastUpdated": "2026-04-08T04:56:54.985Z",
   "_sessionLog": [
     {
       "date": "2026-04-07",
@@ -170,4 +170,3 @@
     }
   ]
 }
-
