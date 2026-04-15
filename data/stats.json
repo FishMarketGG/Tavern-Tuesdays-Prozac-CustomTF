@@ -93,18 +93,6 @@
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "Kilam"
     },
-    "dang it bobby": {
-      "name": "dang it bobby",
-      "frags": 0,
-      "deaths": 0,
-      "joins": 1,
-      "client": "ezQuake 5274",
-      "lastSeen": "2026-04-14",
-      "killMap": {},
-      "clientHistory": {
-        "ezQuake 5274": 1
-      }
-    },
     "Aberrant": {
       "name": "Aberrant",
       "frags": 18,
@@ -158,7 +146,7 @@
       "frags": 46,
       "deaths": 113,
       "joins": 0,
-      "client": "Unknown",
+      "client": "ezQuake 5274",
       "lastSeen": "2026-04-14",
       "killMap": {
         "FishMarket[FF]": 43,
