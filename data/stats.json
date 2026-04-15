@@ -111,18 +111,6 @@
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "FishMarket[FF]"
     },
-    "SpamLite": {
-      "name": "SpamLite",
-      "frags": 0,
-      "deaths": 0,
-      "joins": 1,
-      "client": "ezQuake 5274",
-      "lastSeen": "2026-04-14",
-      "killMap": {},
-      "clientHistory": {
-        "ezQuake 5274": 1
-      }
-    },
     "treph": {
       "name": "treph",
       "frags": 132,
@@ -145,7 +133,7 @@
       "name": "SpamLite",
       "frags": 81,
       "deaths": 189,
-      "joins": 0,
+      "joins": 1,
       "client": "EzQuake 5274",
       "lastSeen": "2026-04-14",
       "killMap": {
