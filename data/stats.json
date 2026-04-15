@@ -2,8 +2,8 @@
   "players": {
     "FishMarket[FF]": {
       "name": "FishMarket[FF]",
-      "frags": 556,
-      "deaths": 487,
+      "frags": 655,
+      "deaths": 574,
       "joins": 2,
       "client": "FuhQuake 0.31",
       "lastSeen": "2026-04-14",
@@ -11,8 +11,8 @@
         "XidCuzYes": 205,
         "paragonimus Westermanii": 181,
         "doc": 13,
-        "SpamLite": 96,
-        "Aberrant": 5,
+        "SpamLite": 157,
+        "Aberrant": 43,
         "treph": 56
       },
       "clientHistory": {
@@ -95,21 +95,21 @@
     },
     "Aberrant": {
       "name": "Aberrant",
-      "frags": 18,
-      "deaths": 22,
+      "frags": 91,
+      "deaths": 66,
       "joins": 1,
       "client": "ezQuake 5181",
       "lastSeen": "2026-04-14",
       "killMap": {
-        "SpamLite": 1,
-        "FishMarket[FF]": 2,
+        "SpamLite": 16,
+        "FishMarket[FF]": 60,
         "treph": 15
       },
       "clientHistory": {
         "ezQuake 5181": 1
       },
-      "topKilled": "treph",
-      "topKilledBy": "treph"
+      "topKilled": "FishMarket[FF]",
+      "topKilledBy": "FishMarket[FF]"
     },
     "SpamLite": {
       "name": "SpamLite",
@@ -143,14 +143,15 @@
     },
     "SpamLite": {
       "name": "SpamLite",
-      "frags": 46,
-      "deaths": 113,
+      "frags": 81,
+      "deaths": 189,
       "joins": 0,
-      "client": "ezQuake 5274",
+      "client": "EzQuake 5274",
       "lastSeen": "2026-04-14",
       "killMap": {
-        "FishMarket[FF]": 43,
-        "treph": 3
+        "FishMarket[FF]": 72,
+        "treph": 3,
+        "Aberrant": 6
       },
       "clientHistory": {},
       "topKilled": "FishMarket[FF]",
@@ -193,14 +194,14 @@
     "2026-W16": {
       "FishMarket[FF]": {
         "name": "FishMarket[FF]",
-        "frags": 157,
-        "deaths": 144,
+        "frags": 256,
+        "deaths": 231,
         "joins": 1
       },
       "Aberrant": {
         "name": "Aberrant",
-        "frags": 18,
-        "deaths": 22,
+        "frags": 91,
+        "deaths": 66,
         "joins": 1
       },
       "SpamLite": {
@@ -217,8 +218,8 @@
       },
       "SpamLite": {
         "name": "SpamLite",
-        "frags": 46,
-        "deaths": 113,
+        "frags": 81,
+        "deaths": 189,
         "joins": 0
       }
     }
@@ -227,8 +228,8 @@
     "Apr 2026": {
       "FishMarket[FF]": {
         "name": "FishMarket[FF]",
-        "frags": 556,
-        "deaths": 487,
+        "frags": 655,
+        "deaths": 574,
         "joins": 2
       },
       "XidCuzYes": {
@@ -257,8 +258,8 @@
       },
       "Aberrant": {
         "name": "Aberrant",
-        "frags": 18,
-        "deaths": 22,
+        "frags": 91,
+        "deaths": 66,
         "joins": 1
       },
       "SpamLite": {
@@ -275,14 +276,14 @@
       },
       "SpamLite": {
         "name": "SpamLite",
-        "frags": 46,
-        "deaths": 113,
+        "frags": 81,
+        "deaths": 189,
         "joins": 0
       }
     }
   },
   "mvpHistory": [],
-  "lastUpdated": "2026-04-15T04:17:43.514Z",
+  "lastUpdated": "2026-04-15T06:38:22.783Z",
   "_sessionLog": [
     {
       "date": "2026-04-07",
@@ -294,7 +295,7 @@
       "date": "2026-04-14",
       "label": null,
       "players": 6,
-      "frags": 353
+      "frags": 560
     }
   ]
 }
