@@ -5,7 +5,7 @@
       "frags": 655,
       "deaths": 574,
       "joins": 2,
-      "client": "FuhQuake 0.31",
+      "client": "FuhQuake",
       "lastSeen": "2026-04-14",
       "killMap": {
         "XidCuzYes": 205,
@@ -16,7 +16,7 @@
         "treph": 56
       },
       "clientHistory": {
-        "FuhQuake 0.31": 2
+        "FuhQuake": 2
       },
       "topKilled": "XidCuzYes",
       "topKilledBy": "paragonimus Westermanii"
@@ -26,14 +26,14 @@
       "frags": 175,
       "deaths": 309,
       "joins": 1,
-      "client": "FTE v1.07",
+      "client": "FTE",
       "lastSeen": "2026-04-07",
       "killMap": {
         "FishMarket[FF]": 121,
         "Kilam": 54
       },
       "clientHistory": {
-        "FTE v1.07": 1
+        "FTE": 1
       },
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "FishMarket[FF]"
@@ -43,7 +43,7 @@
       "frags": 266,
       "deaths": 236,
       "joins": 1,
-      "client": "FTE v1.07",
+      "client": "FTE",
       "lastSeen": "2026-04-07",
       "killMap": {
         "FishMarket[FF]": 201,
@@ -52,7 +52,7 @@
         "XidCuzYes": 1
       },
       "clientHistory": {
-        "FTE v1.07": 1
+        "FTE": 1
       },
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "FishMarket[FF]"
@@ -62,7 +62,7 @@
       "frags": 173,
       "deaths": 132,
       "joins": 1,
-      "client": "ezQuake 1",
+      "client": "ezQuake",
       "lastSeen": "2026-04-07",
       "killMap": {
         "XidCuzYes": 102,
@@ -70,7 +70,7 @@
         "doc": 16
       },
       "clientHistory": {
-        "ezQuake 1": 1
+        "ezQuake": 1
       },
       "topKilled": "XidCuzYes",
       "topKilledBy": "paragonimus Westermanii"
@@ -80,7 +80,7 @@
       "frags": 42,
       "deaths": 35,
       "joins": 1,
-      "client": "ezQuake 5182",
+      "client": "ezQuake",
       "lastSeen": "2026-04-07",
       "killMap": {
         "XidCuzYes": 1,
@@ -88,7 +88,7 @@
         "Kilam": 20
       },
       "clientHistory": {
-        "ezQuake 5182": 1
+        "ezQuake": 1
       },
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "Kilam"
@@ -98,7 +98,7 @@
       "frags": 91,
       "deaths": 66,
       "joins": 1,
-      "client": "ezQuake 5181",
+      "client": "ezQuake",
       "lastSeen": "2026-04-14",
       "killMap": {
         "SpamLite": 16,
@@ -106,7 +106,7 @@
         "treph": 15
       },
       "clientHistory": {
-        "ezQuake 5181": 1
+        "ezQuake": 1
       },
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "FishMarket[FF]"
@@ -116,7 +116,7 @@
       "frags": 132,
       "deaths": 74,
       "joins": 1,
-      "client": "FTE v1.07",
+      "client": "FTE",
       "lastSeen": "2026-04-14",
       "killMap": {
         "FishMarket[FF]": 99,
@@ -124,7 +124,7 @@
         "Aberrant": 17
       },
       "clientHistory": {
-        "FTE v1.07": 1
+        "FTE": 1
       },
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "FishMarket[FF]"
@@ -134,7 +134,7 @@
       "frags": 81,
       "deaths": 189,
       "joins": 1,
-      "client": "EzQuake 5274",
+      "client": "ezQuake 5274",
       "lastSeen": "2026-04-14",
       "killMap": {
         "FishMarket[FF]": 72,
