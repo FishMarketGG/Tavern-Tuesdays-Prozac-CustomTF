@@ -341,6 +341,7 @@ footer a:hover{color:var(--amber);}
         <th onclick="srt('name')" data-col="name">Player <span class="sa">↕</span></th>
         <th onclick="srt('frags')" data-col="frags">Frags <span class="sa">↕</span></th>
         <th onclick="srt('deaths')" data-col="deaths">Deaths <span class="sa">↕</span></th>
+        <th onclick="srt('kd')" data-col="kd">K/D <span class="sa">↕</span></th>
         <th onclick="srt('joins')" data-col="joins">Joins <span class="sa">↕</span></th>
         <th>Most Killed</th>
         <th>Most Killed By</th>
@@ -435,24 +436,37 @@ let sc='name',sd=1,sq='';
 function renderTable(){
   let rows=Object.values(G.players||{}).filter(p=>p.name.toLowerCase().includes(sq.toLowerCase()));
   rows.sort((a,b)=>{
-    let av=a[sc]??(sc==='name'?'':0),bv=b[sc]??(sc==='name'?'':0);
+    let av,bv;
+    if(sc==='kd'){
+      const af=a.frags||0,ad=a.deaths||0,bf=b.frags||0,bd=b.deaths||0;
+      av=ad===0?(af>0?af:0):af/ad;
+      bv=bd===0?(bf>0?bf:0):bf/bd;
+    } else {
+      av=a[sc]??(sc==='name'?'':0);
+      bv=b[sc]??(sc==='name'?'':0);
+    }
     if(typeof av==='string')av=av.toLowerCase();
     if(typeof bv==='string')bv=bv.toLowerCase();
     return av<bv?-sd:av>bv?sd:0;
   });
   document.getElementById('pcnt').textContent=rows.length+' player'+(rows.length!==1?'s':'');
   const tb=document.getElementById('ptbody');
-  if(!rows.length){tb.innerHTML='<tr><td colspan="8" style="padding:1.5rem;text-align:center;color:var(--text-dim);opacity:.45;font-size:.78rem;">No players yet.</td></tr>';return;}
-  tb.innerHTML=rows.map(p=>`<tr>
+  if(!rows.length){tb.innerHTML='<tr><td colspan="9" style="padding:1.5rem;text-align:center;color:var(--text-dim);opacity:.45;font-size:.78rem;">No players yet.</td></tr>';return;}
+  tb.innerHTML=rows.map(p=>{
+    const frags=p.frags||0, deaths=p.deaths||0;
+    const kd=deaths===0?(frags>0?frags.toFixed(2):'—'):(frags/deaths).toFixed(2);
+    const kdColor=deaths===0&&frags>0?'color:var(--amber)':frags>=deaths?'color:var(--green)':'color:rgba(200,80,60,.8)';
+    return `<tr>
     <td class="nc">${esc(p.name)}</td>
-    <td class="vc">${p.frags||0}</td>
-    <td>${p.deaths||0}</td>
+    <td class="vc">${frags}</td>
+    <td>${deaths}</td>
+    <td style="font-size:.8rem;${kdColor}">${kd}</td>
     <td class="vc">${p.joins||0}</td>
     <td class="kc">${p.topKilled?esc(p.topKilled):'—'}</td>
     <td class="kc">${p.topKilledBy?esc(p.topKilledBy):'—'}</td>
     <td><span class="ctag">${esc(p.client||'?')}</span></td>
     <td style="font-size:.71rem;color:var(--text-dim)">${p.lastSeen?fmtD(p.lastSeen):'—'}</td>
-  </tr>`).join('');
+  </tr>`;}).join('');
   document.querySelectorAll('th[data-col]').forEach(th=>{
     th.classList.toggle('sorted',th.dataset.col===sc);
     const a=th.querySelector('.sa');
