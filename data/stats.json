@@ -2,21 +2,22 @@
   "players": {
     "FishMarket[FF]": {
       "name": "FishMarket[FF]",
-      "frags": 655,
-      "deaths": 574,
-      "joins": 2,
+      "frags": 713,
+      "deaths": 623,
+      "joins": 3,
       "client": "FuhQuake",
-      "lastSeen": "2026-04-14",
+      "lastSeen": "2026-04-28",
       "killMap": {
         "XidCuzYes": 205,
         "paragonimus Westermanii": 181,
         "doc": 13,
         "SpamLite": 157,
         "Aberrant": 43,
-        "treph": 56
+        "treph": 104,
+        "Cloud": 10
       },
       "clientHistory": {
-        "FuhQuake": 2
+        "FuhQuake": 3
       },
       "topKilled": "XidCuzYes",
       "topKilledBy": "paragonimus Westermanii"
@@ -113,18 +114,19 @@
     },
     "treph": {
       "name": "treph",
-      "frags": 132,
-      "deaths": 74,
-      "joins": 1,
+      "frags": 173,
+      "deaths": 131,
+      "joins": 2,
       "client": "FTE",
-      "lastSeen": "2026-04-14",
+      "lastSeen": "2026-04-28",
       "killMap": {
-        "FishMarket[FF]": 99,
+        "FishMarket[FF]": 139,
         "SpamLite": 16,
-        "Aberrant": 17
+        "Aberrant": 17,
+        "[GTK]NyTR?)S96": 1
       },
       "clientHistory": {
-        "FTE": 1
+        "FTE": 2
       },
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "FishMarket[FF]"
@@ -144,6 +146,36 @@
       "clientHistory": {},
       "topKilled": "FishMarket[FF]",
       "topKilledBy": "FishMarket[FF]"
+    },
+    "Cloud": {
+      "name": "Cloud",
+      "frags": 18,
+      "deaths": 10,
+      "joins": 1,
+      "client": "ezQuake",
+      "lastSeen": "2026-04-28",
+      "killMap": {
+        "FishMarket[FF]": 9,
+        "treph": 9
+      },
+      "clientHistory": {
+        "ezQuake": 1
+      },
+      "topKilled": "FishMarket[FF]",
+      "topKilledBy": "FishMarket[FF]"
+    },
+    "[GTK]NyTR?)S96": {
+      "name": "[GTK]NyTR?)S96",
+      "frags": 0,
+      "deaths": 1,
+      "joins": 1,
+      "client": "FTE",
+      "lastSeen": "2026-04-28",
+      "killMap": {},
+      "clientHistory": {
+        "FTE": 1
+      },
+      "topKilledBy": "treph"
     }
   },
   "weekly": {
@@ -204,15 +236,41 @@
         "deaths": 189,
         "joins": 1
       }
+    },
+    "2026-W18": {
+      "FishMarket[FF]": {
+        "name": "FishMarket[FF]",
+        "frags": 58,
+        "deaths": 49,
+        "joins": 1
+      },
+      "treph": {
+        "name": "treph",
+        "frags": 41,
+        "deaths": 57,
+        "joins": 1
+      },
+      "Cloud": {
+        "name": "Cloud",
+        "frags": 18,
+        "deaths": 10,
+        "joins": 1
+      },
+      "[GTK]NyTR?)S96": {
+        "name": "[GTK]NyTR?)S96",
+        "frags": 0,
+        "deaths": 1,
+        "joins": 1
+      }
     }
   },
   "monthly": {
     "Apr 2026": {
       "FishMarket[FF]": {
         "name": "FishMarket[FF]",
-        "frags": 655,
-        "deaths": 574,
-        "joins": 2
+        "frags": 713,
+        "deaths": 623,
+        "joins": 3
       },
       "XidCuzYes": {
         "name": "XidCuzYes",
@@ -246,20 +304,114 @@
       },
       "treph": {
         "name": "treph",
-        "frags": 132,
-        "deaths": 74,
-        "joins": 1
+        "frags": 173,
+        "deaths": 131,
+        "joins": 2
       },
       "SpamLite": {
         "name": "SpamLite",
         "frags": 81,
         "deaths": 189,
         "joins": 1
+      },
+      "Cloud": {
+        "name": "Cloud",
+        "frags": 18,
+        "deaths": 10,
+        "joins": 1
+      },
+      "[GTK]NyTR?)S96": {
+        "name": "[GTK]NyTR?)S96",
+        "frags": 0,
+        "deaths": 1,
+        "joins": 1
       }
     }
   },
-  "mvpHistory": [],
-  "lastUpdated": "2026-04-15T06:38:22.783Z",
+  "mvpHistory": [
+    {
+      "rank": 1,
+      "player": "FishMarket[FF]",
+      "category": "frags",
+      "period": "monthly",
+      "periodKey": "Apr 2026",
+      "date": "2026-04-29",
+      "value": 713
+    },
+    {
+      "rank": 2,
+      "player": "paragonimus Westermanii",
+      "category": "frags",
+      "period": "monthly",
+      "periodKey": "Apr 2026",
+      "date": "2026-04-29",
+      "value": 266
+    },
+    {
+      "rank": 3,
+      "player": "XidCuzYes",
+      "category": "frags",
+      "period": "monthly",
+      "periodKey": "Apr 2026",
+      "date": "2026-04-29",
+      "value": 175
+    },
+    {
+      "rank": 1,
+      "player": "FishMarket[FF]",
+      "category": "deaths",
+      "period": "monthly",
+      "periodKey": "Apr 2026",
+      "date": "2026-04-29",
+      "value": 623
+    },
+    {
+      "rank": 2,
+      "player": "XidCuzYes",
+      "category": "deaths",
+      "period": "monthly",
+      "periodKey": "Apr 2026",
+      "date": "2026-04-29",
+      "value": 309
+    },
+    {
+      "rank": 3,
+      "player": "paragonimus Westermanii",
+      "category": "deaths",
+      "period": "monthly",
+      "periodKey": "Apr 2026",
+      "date": "2026-04-29",
+      "value": 236
+    },
+    {
+      "rank": 1,
+      "player": "FishMarket[FF]",
+      "category": "joins",
+      "period": "monthly",
+      "periodKey": "Apr 2026",
+      "date": "2026-04-29",
+      "value": 3
+    },
+    {
+      "rank": 2,
+      "player": "treph",
+      "category": "joins",
+      "period": "monthly",
+      "periodKey": "Apr 2026",
+      "date": "2026-04-29",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "player": "XidCuzYes",
+      "category": "joins",
+      "period": "monthly",
+      "periodKey": "Apr 2026",
+      "date": "2026-04-29",
+      "value": 1
+    }
+  ],
+  "lastUpdated": "2026-04-29T23:48:47.305Z",
   "_sessionLog": [
     {
       "date": "2026-04-07",
@@ -272,6 +424,12 @@
       "label": null,
       "players": 6,
       "frags": 560
+    },
+    {
+      "date": "2026-04-28",
+      "label": null,
+      "players": 4,
+      "frags": 117
     }
   ]
 }
